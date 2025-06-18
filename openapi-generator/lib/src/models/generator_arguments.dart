@@ -20,8 +20,6 @@ class GeneratorArguments {
   /// The default location is: .dart_tool/openapi-generator-cache.json
   final String cachePath;
 
-  /// Informs the generator to disable the cache.
-  @Deprecated(skipSpecDepMessage)
   final bool skipIfSpecIsUnchanged;
 
   final bool isDebug;
